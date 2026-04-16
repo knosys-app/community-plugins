@@ -19,7 +19,17 @@
       "version": "1.0.0",
       "minAtlasVersion": "1.0.0",
       "downloads": 0
+    },
+    {
+      "id": "knosys-fitness",
+      "name": "Fitness",
+      "description": "Calorie and nutrition tracking — food logging, macros, weight, exercise, and more",
+      "author": "knosys-app",
+      "repo": "knosys-app/knosys-fitness",
+      "version": "1.1.0",
+      "minKnosysVersion": "1.0.0",
+      "downloads": 0
     }
   ],
-  "lastUpdated": "2026-01-02T00:00:00Z"
+  "lastUpdated": "2026-04-16T00:00:00Z"
 }
