@@ -33,13 +33,13 @@
     {
       "id": "knosys-flight-planner",
       "name": "Flight Planner",
-      "description": "Offline VFR flight planner for GA pilots — routes, navlog, aircraft profiles, exports",
+      "description": "Offline VFR flight planner for GA pilots — routes, navlog, terrain-aware block time",
       "author": "knosys-app",
       "repo": "knosys-app/knosys-flight-planner",
-      "version": "0.1.11",
+      "version": "0.2.0",
       "minKnosysVersion": "1.0.0",
       "downloads": 0
     }
   ],
-  "lastUpdated": "2026-04-19T15:00:00Z"
+  "lastUpdated": "2026-04-19T20:55:00Z"
 }
