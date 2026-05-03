@@ -36,10 +36,10 @@
       "description": "Offline VFR flight planner for GA pilots — Apple-Maps-style redesign with terrain-aware block time, profile ribbon, and translucent HUD",
       "author": "knosys-app",
       "repo": "knosys-app/knosys-flight-planner",
-      "version": "0.9.0.4",
+      "version": "0.10.0",
       "minKnosysVersion": "1.0.0",
       "downloads": 0
     }
   ],
-  "lastUpdated": "2026-04-23T19:30:00Z"
+  "lastUpdated": "2026-05-02T20:05:00Z"
 }
