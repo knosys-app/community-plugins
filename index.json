@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-05-03T00:00:00Z",
+  "fetchedAt": "2026-05-03T19:14:00Z",
   "plugins": [
     {
       "id": "knosys-weather",
@@ -13,7 +13,7 @@
       "homepage": "https://github.com/knosys-app/atlas-weather",
       "repository": "https://github.com/knosys-app/atlas-weather",
       "downloadUrl": "https://github.com/knosys-app/atlas-weather/releases/download/v2.0.0/knosys-weather-2.0.0.tgz",
-      "downloadSha256": "REPLACE_WITH_SHA256_AFTER_RELEASE_IS_CUT",
+      "downloadSha256": "d2ce87e3e9eae4f7c25366e0534c813167507edf7397ba982d936a04040db1d9",
       "permissions": ["network", "storage", "core:locations"],
       "requiredApiKeys": [
         {
@@ -43,8 +43,24 @@
       "homepage": "https://github.com/knosys-app/atlas-maps",
       "repository": "https://github.com/knosys-app/atlas-maps",
       "downloadUrl": "https://github.com/knosys-app/atlas-maps/releases/download/v2.0.0/knosys-maps-2.0.0.tgz",
-      "downloadSha256": "REPLACE_WITH_SHA256_AFTER_RELEASE_IS_CUT",
-      "permissions": ["network", "storage", "filesystem", "core:locations"]
+      "downloadSha256": "f9c6b28f4142fd0e544e68e34562ae7e2966b2e0a5e2e6d827d0ba0e5cad74e4",
+      "permissions": ["network", "storage", "filesystem", "core:locations"],
+      "requiredApiKeys": [
+        {
+          "id": "maptiler",
+          "name": "MapTiler API Key",
+          "description": "Required for downloading map tiles and styles for offline use.",
+          "signupUrl": "https://cloud.maptiler.com/account/keys",
+          "required": true
+        },
+        {
+          "id": "google_maps",
+          "name": "Google Maps API Key",
+          "description": "Required for geocoding (converting addresses to coordinates).",
+          "signupUrl": "https://console.cloud.google.com/apis/credentials",
+          "required": true
+        }
+      ]
     },
     {
       "id": "knosys-flight-planner",
@@ -57,7 +73,7 @@
       "homepage": "https://github.com/knosys-app/knosys-flight-planner",
       "repository": "https://github.com/knosys-app/knosys-flight-planner",
       "downloadUrl": "https://github.com/knosys-app/knosys-flight-planner/releases/download/v2.0.0/knosys-flight-planner-2.0.0.tgz",
-      "downloadSha256": "REPLACE_WITH_SHA256_AFTER_RELEASE_IS_CUT",
+      "downloadSha256": "8fb48642a79747dc2b921b03d9f68d412d20845d400c40b42b592e742cb8aa7f",
       "permissions": ["storage", "network", "core:locations"]
     },
     {
@@ -68,10 +84,10 @@
       "version": "2.0.0",
       "knosysApi": 2,
       "categories": ["health", "tracking"],
-      "homepage": "https://github.com/knosys-app/atlas-fitness",
-      "repository": "https://github.com/knosys-app/atlas-fitness",
-      "downloadUrl": "https://github.com/knosys-app/atlas-fitness/releases/download/v2.0.0/knosys-fitness-2.0.0.tgz",
-      "downloadSha256": "REPLACE_WITH_SHA256_AFTER_RELEASE_IS_CUT",
+      "homepage": "https://github.com/knosys-app/knosys-fitness",
+      "repository": "https://github.com/knosys-app/knosys-fitness",
+      "downloadUrl": "https://github.com/knosys-app/knosys-fitness/releases/download/v2.0.0/knosys-fitness-2.0.0.tgz",
+      "downloadSha256": "0843e853f7a947f1b88c42403666f41a3f2e0597dd5e96f51b0dc311c0e10aae",
       "permissions": ["storage", "network"],
       "requiredApiKeys": [
         {
@@ -98,10 +114,10 @@
       "version": "2.0.0",
       "knosysApi": 2,
       "categories": ["media", "ingest"],
-      "homepage": "https://github.com/knosys-app/knosys-tiktok",
-      "repository": "https://github.com/knosys-app/knosys-tiktok",
-      "downloadUrl": "https://github.com/knosys-app/knosys-tiktok/releases/download/v2.0.0/knosys-tiktok-2.0.0.tgz",
-      "downloadSha256": "REPLACE_WITH_SHA256_AFTER_RELEASE_IS_CUT",
+      "homepage": "https://github.com/knosys-app/knosys-tiktok-downloader",
+      "repository": "https://github.com/knosys-app/knosys-tiktok-downloader",
+      "downloadUrl": "https://github.com/knosys-app/knosys-tiktok-downloader/releases/download/v2.0.0/knosys-tiktok-2.0.0.tgz",
+      "downloadSha256": "73e5e79a12c45979456c92f3ae918920eb261483db58f6877f64ff3beded33f3",
       "permissions": ["network", "storage", "filesystem"]
     }
   ]
