@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "fetchedAt": "2026-05-03T00:00:00Z",
+  "plugins": [
+    {
+      "id": "knosys-weather",
+      "name": "Weather",
+      "description": "Weather forecasts for your location and saved locations.",
+      "author": "Knosys",
+      "version": "2.0.0",
+      "knosysApi": 2,
+      "categories": ["weather", "data"],
+      "homepage": "https://github.com/knosys-app/atlas-weather",
+      "repository": "https://github.com/knosys-app/atlas-weather",
+      "downloadUrl": "https://github.com/knosys-app/atlas-weather/releases/download/v2.0.0/knosys-weather-2.0.0.tgz",
+      "downloadSha256": "REPLACE_WITH_SHA256_AFTER_RELEASE_IS_CUT",
+      "permissions": ["network", "storage", "core:locations"],
+      "requiredApiKeys": [
+        {
+          "id": "openweather",
+          "name": "OpenWeather API Key",
+          "description": "Used to fetch current weather and forecasts.",
+          "signupUrl": "https://openweathermap.org/api",
+          "required": true
+        },
+        {
+          "id": "googlemaps",
+          "name": "Google Maps API Key",
+          "description": "Used for location search and geocoding.",
+          "signupUrl": "https://console.cloud.google.com/apis/credentials",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "knosys-maps",
+      "name": "Maps",
+      "description": "Offline maps with downloadable regions.",
+      "author": "Knosys",
+      "version": "2.0.0",
+      "knosysApi": 2,
+      "categories": ["maps", "data"],
+      "homepage": "https://github.com/knosys-app/atlas-maps",
+      "repository": "https://github.com/knosys-app/atlas-maps",
+      "downloadUrl": "https://github.com/knosys-app/atlas-maps/releases/download/v2.0.0/knosys-maps-2.0.0.tgz",
+      "downloadSha256": "REPLACE_WITH_SHA256_AFTER_RELEASE_IS_CUT",
+      "permissions": ["network", "storage", "filesystem", "core:locations"]
+    },
+    {
+      "id": "knosys-flight-planner",
+      "name": "Flight Planner",
+      "description": "Offline VFR flight planner for GA pilots — routes, navlog, aircraft profiles, exports.",
+      "author": "Knosys",
+      "version": "2.0.0",
+      "knosysApi": 2,
+      "categories": ["aviation", "planning"],
+      "homepage": "https://github.com/knosys-app/knosys-flight-planner",
+      "repository": "https://github.com/knosys-app/knosys-flight-planner",
+      "downloadUrl": "https://github.com/knosys-app/knosys-flight-planner/releases/download/v2.0.0/knosys-flight-planner-2.0.0.tgz",
+      "downloadSha256": "REPLACE_WITH_SHA256_AFTER_RELEASE_IS_CUT",
+      "permissions": ["storage", "network", "core:locations"]
+    },
+    {
+      "id": "knosys-fitness",
+      "name": "Fitness",
+      "description": "Calorie and nutrition tracking — food logging, macros, weight, exercise, and more.",
+      "author": "Knosys",
+      "version": "2.0.0",
+      "knosysApi": 2,
+      "categories": ["health", "tracking"],
+      "homepage": "https://github.com/knosys-app/atlas-fitness",
+      "repository": "https://github.com/knosys-app/atlas-fitness",
+      "downloadUrl": "https://github.com/knosys-app/atlas-fitness/releases/download/v2.0.0/knosys-fitness-2.0.0.tgz",
+      "downloadSha256": "REPLACE_WITH_SHA256_AFTER_RELEASE_IS_CUT",
+      "permissions": ["storage", "network"],
+      "requiredApiKeys": [
+        {
+          "id": "usda",
+          "name": "USDA FoodData Central API Key",
+          "description": "For searching the USDA food database.",
+          "signupUrl": "https://fdc.nal.usda.gov/api-key-signup.html",
+          "required": false
+        },
+        {
+          "id": "api-ninjas",
+          "name": "API-Ninjas Exercise API Key",
+          "description": "Optional fallback exercise search. Free tier includes 10k requests/month.",
+          "signupUrl": "https://api-ninjas.com/register",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "knosys-tiktok",
+      "name": "TikTok Downloader",
+      "description": "Download TikTok videos with metadata for your knowledge base.",
+      "author": "Ryan Milton",
+      "version": "2.0.0",
+      "knosysApi": 2,
+      "categories": ["media", "ingest"],
+      "homepage": "https://github.com/knosys-app/knosys-tiktok",
+      "repository": "https://github.com/knosys-app/knosys-tiktok",
+      "downloadUrl": "https://github.com/knosys-app/knosys-tiktok/releases/download/v2.0.0/knosys-tiktok-2.0.0.tgz",
+      "downloadSha256": "REPLACE_WITH_SHA256_AFTER_RELEASE_IS_CUT",
+      "permissions": ["network", "storage", "filesystem"]
+    }
+  ]
+}
